@@ -11,9 +11,9 @@ https://psyduck.liujiayang.cn/
 
 # 截图
 
-![截图](https://www.liujiayang.cn/psyduck/psyduck.liujiayang.cn_.png)
+![截图](https://www.liujiayang.cn/psyduck/psyduck.liujiayang.cn_.png)   
 
-# 感谢
+# 感谢  
 
 特别鸣谢 [youranreus](https://github.com/youranreus/G) 的G主题
 
