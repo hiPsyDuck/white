@@ -1,6 +1,6 @@
 /**
  * @file X.js
- * @author psyduck
+ * @author youranreus
  */
 
 //移动端Hover补偿
