@@ -202,7 +202,11 @@ function ajaxc(){
 												newComment  = $("#li-comment-" + newCommentId, data);
 												$('.comment-list').first().prepend((newComment).addClass('animated fadeInUp'));
 										}
-										$('html,body').animate({scrollTop:$('#response').offset().top - 100},1000);
+										var response = $('#response');
+										if (response.length) {
+											var responseTop = response.offset().top;
+											$('html,body').animate({scrollTop: responseTop - 100},1000);
+										}
 								}
 								else {
 										newComment = $("#li-comment-" + newCommentId, data);
