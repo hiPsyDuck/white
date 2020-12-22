@@ -137,10 +137,7 @@ html::-webkit-scrollbar-thumb,html *::-webkit-scrollbar-thumb {
 	background-size: 100%;
 	opacity: .55
 }
-.m_search{
-	background: url(../IMG/search.svg)no-repeat center;
-	background-size: 100%;
-}
+
 .down{
 	background: url(../IMG/down.svg)no-repeat center;
 	background-size: 100%;
@@ -152,6 +149,7 @@ html::-webkit-scrollbar-thumb,html *::-webkit-scrollbar-thumb {
 	color: #666;
 	cursor: pointer;
 	font-size: 0.9rem;
+	line-height: 30px;
 	display: inline-block;
 	float: left;
 	-webkit-transition: .3s ease all;
@@ -173,6 +171,44 @@ html::-webkit-scrollbar-thumb,html *::-webkit-scrollbar-thumb {
 	padding: 0px;
 	padding-top:10px;
 }
+
+label{
+	display: inline-block;
+	text-align: left;
+	line-height: 30px;
+	float: right;
+	font-size: 12px;
+	padding-right: 10px;
+	color: #606975;
+}
+input[type="checkbox"]{
+	display: none!important;
+}
+label input[type="checkbox"]+span{
+	box-sizing: border-box;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	padding: 2px;
+	border: 2px solid #ccc;
+	vertical-align: sub;
+	margin-right: 5px;
+}
+label input[type="checkbox"]+span>span{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	float: left;
+	background: #3A8FB7;
+	opacity: 0;
+}
+label input[type="checkbox"]:checked+span{
+	border-color: #3A8FB7;
+}
+label input[type="checkbox"]:checked+span>span{
+	opacity: 1;
+}
+
 .ins-search-container {
   z-index: 1000!important;
 }

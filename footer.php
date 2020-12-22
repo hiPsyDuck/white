@@ -21,11 +21,6 @@
 
 				<a href="<?php Helper::options()->siteUrl()?>about.html">关于</a>
 
-				<?php if (isset($this->options->plugins['activated']['ExSearch'])) : ?>
-
-				<a class="search-form-input">搜索</a>
-
-				<?php endif ?>
 
 			</nav>
 
@@ -73,29 +68,11 @@
 </div>
 
 
-
-
-
-<?php if (isset($this->options->plugins['activated']['ExSearch'])) : ?>
-
-	<div id="m_search">
-
-		<span><a><i class="i m_search search-form-input"></i></a></span>
-
-	</div>
-
-<?php endif ?>
-
-
-
-
-
 <div id="m_top">
 
 	<span><a href="#top"><i class="i gototop"></i></a></span>
 
 </div>
-
 
 
 </body>

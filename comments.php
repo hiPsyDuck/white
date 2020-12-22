@@ -4,7 +4,6 @@ $header = Comment_hash_fix($this);
 echo $header;
 ?>
 
-
 <?php
 function threadedComments($comments, $options) {
     $commentClass = '';
@@ -91,14 +90,23 @@ if ($comments->levels == 0){
                   <input name="_" type="hidden" id="comment_" value="<?php echo Helper::security()->getToken(str_replace(array('?_pjax=%23pjax-container', '&_pjax=%23pjax-container'), '', Typecho_Request::getInstance()->getRequestUrl()));?>"/>
                   <textarea rows="5" name="text" id="textarea" placeholder="友善的评论是交流的起点" style="resize:none;"><?php $this->remember('text'); ?></textarea>
               </p>
-       			
+
               <div class="clear">
-             
+
                 <div class="OwO-logo" onclick="OwO_show()">
                   <span>(OwO)</span>
                 </div>
-           		
-                <button type="submit" class="submit"><?php _e('发射'); ?></button>
+
+                  <button type="submit" class="submit"><?php _e('发射'); ?></button>
+
+                  <?php if (isset($this->options->plugins['activated']['CommentToMail'])) : ?>
+                      <label for="check2">
+                          <input type="checkbox" name="banmail" value="yes" id="check2">
+                          <span><span></span></span>不接收回复邮件
+                      </label>
+                  <?php endif ?>
+
+
               </div>
               <div id="OwO-container"><?php  $this->need('owo.php'); ?></div>
           </form>

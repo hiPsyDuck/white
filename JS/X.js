@@ -86,8 +86,6 @@ function show_site_runtime(bdate){
 	site_runtime.innerHTML= D + "<span>天</span>" + H + "<span>小时</span>" + M + "<span>分</span>" + S + "<span>秒</span>"
 }
 
-
-
 //赞赏按钮
 function feedme_show(){
 	if($("#feedme-content").css("display")=='none'){
@@ -128,36 +126,7 @@ function gototop(){
 }
 
 
-//侧栏内容开关
-function show_slide_content(id){
 
-	var rotate = {
-		"-webkit-transition":" .3s ease all",
-		"-moz-transition": ".3s ease all",
-		"-ms-transition": ".3s ease all",
-		"-o-transition": ".3s ease all",
-		transition: ".3s ease all",
-		"-webkit-transform":" rotate(180deg)",
-		"-moz-transform":" rotate(180deg)",
-		"-ms-transform": "rotate(180deg)",
-		"-o-transform": "rotate(180deg)",
-	  transform: "rotate(180deg)"
-	};
-
-	var rotate2 = {
-		"-webkit-transition":" .3s ease all",
-		"-moz-transition": ".3s ease all",
-		"-ms-transition": ".3s ease all",
-		"-o-transition": ".3s ease all",
-		transition: ".3s ease all",
-		"-webkit-transform":" rotate(0deg)",
-		"-moz-transform":" rotate(0deg)",
-		"-ms-transform": "rotate(0deg)",
-		"-o-transform": "rotate(0deg)",
-	  transform: "rotate(0deg)"
-	};
-
-}
 
 //ajax评论
 function ajaxc(){
