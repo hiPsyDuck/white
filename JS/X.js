@@ -146,7 +146,7 @@ function ajaxc(){
 		 * 发送前的处理
 		 */
 		function beforeSendComment() {
-			// $("#comment-loading").fadeIn();
+			NProgress.start();
 			$(".submit").fadeOut();
 			$("#OwO-container").slideUp();
 		}
@@ -157,8 +157,8 @@ function ajaxc(){
 		 */
 		function afterSendComment(ok) {
 				if (ok) {
-						$("#textarea").val('');
-						replyTo = '';
+					$("#textarea").val('');
+					replyTo = '';
 				}
 				bindButton();
 		}
@@ -170,15 +170,15 @@ function ajaxc(){
 						url: $(this).attr('action'),
 						data: commentData,
 						error: function (e) {
+								NProgress.done();
 								console.log('Ajax Comment Error');
 								window.location.reload();
 						},
 						success: function (data) {
 								if (!$('#comments', data).length) {
+										NProgress.done();
 										var msg = $('title').eq(0).text().trim().toLowerCase() === 'error' ? $('.container', data).eq(0).text() : '评论提交失败！';
-
-										toastr.warning(msg, 'QAQ');
-										//$("#comment-loading").fadeOut();
+										toastr.warning(msg, 'QAQ', {"iconClass": 'customer-warn'});
 										$(".submit").fadeIn();
 										afterSendComment(false);
 										return false;
@@ -220,16 +220,16 @@ function ajaxc(){
 												TypechoComment.cancelReply();
 										}
 								}
+								NProgress.done(true);
 								afterSendComment(true);
 
 						},
 						error:function(){
-							//$("#comment-loading").fadeOut();
+							NProgress.done();
 							$(".submit").fadeIn();
 						},
 						complete:function(){
-							// toastr.success('送信完了', '发送成功');
-							//$("#comment-loading").fadeOut();
+							NProgress.done();
 							$(".submit").fadeIn();
 						}
 				});

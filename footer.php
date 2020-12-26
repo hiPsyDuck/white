@@ -49,6 +49,8 @@
 
 	<script src="https://cdn.bootcss.com/fancybox/3.5.6/jquery.fancybox.min.js"></script>
 
+    <script src="https://unpkg.com/nprogress@0.2.0/nprogress.js"></script>
+
 	<?php $this->footer(); ?>
 
 
