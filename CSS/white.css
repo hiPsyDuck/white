@@ -796,10 +796,12 @@ div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code-tool
 code:not([class*="language-"]) {
     padding: 2px 8px;
     margin: 0 4px;
-    word-wrap: break-word;
+	white-space:normal;
     color: #555;
     background: #eee;
     font-size: 14px;
+	line-height: 22px;
+	display: inline-block;
 }
 
 hr {
