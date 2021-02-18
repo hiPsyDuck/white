@@ -164,6 +164,8 @@ function ajaxc(){
 		}
 		$("#comment-form").submit(function () {
 				commentData = $(this).serializeArray();
+				// replyAuthor = $("#comment-" + commentData[3]['value']).find(".comment-inner").find(".comment-author").find('span').find('a').html();
+				// commentData[1]['value'] = '@' + replyAuthor + ' ' + commentData[1]['value'];
 				beforeSendComment();
 				$.ajax({
 						type: $(this).attr('method'),

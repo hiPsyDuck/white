@@ -11,13 +11,12 @@
 			<nav id="nav-2">
 
 				<a href="<?php Helper::options()->siteUrl()?>">首页</a>
-
-	
-                                <a href="<?php Helper::options()->siteUrl()?>bb.html">留言</a>
+				
+                <a href="<?php Helper::options()->siteUrl()?>bb.html">留言</a>
 
 				<a href="<?php Helper::options()->siteUrl()?>archive.html">归档</a>
 
-                                <a href="<?php Helper::options()->siteUrl()?>links.html">邻居</a>
+                <a href="<?php Helper::options()->siteUrl()?>links.html">邻居</a>
 
 				<a href="<?php Helper::options()->siteUrl()?>about.html">关于</a>
 
@@ -37,19 +36,19 @@
 
 
 
-	<script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://blog.loli.top/usr/themes/po/JS/jquery.min.js"></script>
 
-	<script src="https://cdn.bootcss.com/jquery.pjax/2.0.1/jquery.pjax.min.js"></script>
+	<script src="https://blog.loli.top/usr/themes/po/JS/jquery.pjax.min.js"></script>
 
  	<script src="<?php $this->options->themeUrl('JS/X.js'); ?>"></script>
 
-	<script src="<?php $this->options->themeUrl('JS/prism.js'); ?>"></script>
+	<script src="<?php $this->options->themeUrl('JS/clipboard.min.js'); ?>"></script>
 
-	<script src="https://cdn.bootcss.com/toastr.js/latest/js/toastr.min.js"></script>
+	<script src="<?php $this->options->themeUrl('JS/toastr.min.js'); ?>"></script>
 
-	<script src="https://cdn.bootcss.com/fancybox/3.5.6/jquery.fancybox.min.js"></script>
+	<script src="<?php $this->options->themeUrl('JS/jquery.fancybox.min.js'); ?>"></script>
 
-    <script src="https://unpkg.com/nprogress@0.2.0/nprogress.js"></script>
+    <script src="<?php $this->options->themeUrl('JS/nprogress.js'); ?>"></script>
 
 	<?php $this->footer(); ?>
 

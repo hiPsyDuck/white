@@ -100,7 +100,7 @@ if ($comments->levels == 0){
                   <button type="submit" class="submit"><?php _e('发射'); ?></button>
 
                   <?php if (isset($this->options->plugins['activated']['CommentToMail'])) : ?>
-                      <label for="check2">
+                      <label for="check2" id="comment_mail_set">
                           <input type="checkbox" name="banmail" value="yes" id="check2">
                           <span><span></span></span>不接收回复邮件
                       </label>

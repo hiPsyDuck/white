@@ -8,10 +8,10 @@
 
 	<!-- DNS预解析 -->
 
-	<link rel="dns-prefetch" href="//cdn.bootcss.com">
 
-	<link rel="dns-prefetch" href="//i.loli.net">
-
+	<link rel="dns-prefetch" href="https://cdn.s.loli.top">
+	<link rel="dns-prefetch" href="https://p.pstatp.com">
+	<link rel="dns-prefetch" href="https://dingyue.ws.126.net">
 
 
 	<title><?php $this->archiveTitle(' &raquo; ', '', ' | '); ?><?php $this->options->title(); ?></title>
@@ -26,11 +26,11 @@
 
 	<link rel="stylesheet" href="<?php $this->options->themeUrl('CSS/prism.css'); ?>" rel="stylesheet" />
 
-	<link href="https://cdn.bootcss.com/fancybox/3.5.6/jquery.fancybox.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('CSS/jquery.fancybox.min.css'); ?>" rel="stylesheet" />
 
-	<link href="https://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('CSS/toastr.min.css'); ?>" rel="stylesheet" />
 
-    <link rel="stylesheet" href="https://unpkg.com/nprogress@0.2.0/nprogress.css">
+    <link rel="stylesheet" href="<?php $this->options->themeUrl('CSS/nprogress.css'); ?>" rel="stylesheet" />
 
 	<style>
 		.article-item {

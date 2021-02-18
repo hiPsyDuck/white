@@ -21,7 +21,7 @@
 		<div id="post-header-mask">
 			<div id="post-header-content">
 				<h2 id="post-content-title"><?php $this->title();?></h2>
-				<span id="post-content-meta"><?php $this->date('F j, Y'); ?> · <?php $this->category(' · '); ?> · <?php get_post_view($this); ?>次阅读</span>
+				<span id="post-content-meta"><?php $this->date('Y年m月d日'); ?> · <?php $this->category(' · '); ?> · <?php get_post_view($this); ?>次阅读</span>
 			</div>
 		</div>
 	</div>
@@ -43,7 +43,7 @@
 
 	<div id="post-footer" class="clear">
 		<div id="post-tags"><p>标签：<?php $this->tags(',', true, 'none'); ?></p></div>
-		<div id="post-lastEdit"><p>最后编辑于：<?php echo date('Y/m/d H:i' , $this->modified); ?></p></div>
+		<div id="post-lastEdit"><p>最后编辑于：<?php echo date('Y-m-d H:i' , $this->modified); ?></p></div>
 	</div>
 </div>
 

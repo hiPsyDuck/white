@@ -1,7 +1,7 @@
 <?php
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 function themeConfig($form) {
-    echo "<link rel='stylesheet' href='".__TYPECHO_THEME_DIR__."/write/CSS/setting.css'/>";
+    echo "<link rel='stylesheet' href='".__TYPECHO_THEME_DIR__."/white/CSS/setting.css'/>";
     echo "
     <div id='art-box'>
        <div id='ab-mask'>

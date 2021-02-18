@@ -13,12 +13,12 @@
  ?>
 <div id="article" class="clear">
   <div id="article-content">
-
+	
     <?php  $this->need('IndexSwitcher.php'); ?>
 
     <div id="pages" class="clear">
-      <?php $this->pageLink('NEXT','next'); ?>
-      <?php $this->pageLink('PREVIOUS','prev'); ?>
+      <?php $this->pageLink('下一页','next'); ?>
+      <?php $this->pageLink('上一页','prev'); ?>
     </div>
 
   </div>
