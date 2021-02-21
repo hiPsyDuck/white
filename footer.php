@@ -8,6 +8,7 @@
 
 		<div id="footer-content-left">
 
+		<?php if (!$this->options->navPosition): ?>
 			<nav id="nav-2">
 
 				<a href="<?php Helper::options()->siteUrl()?>">首页</a>
@@ -22,7 +23,8 @@
 
 
 			</nav>
-
+		<?php endif; ?>
+		
             <p><?php $this->options->beian(); ?></p>
 
             <p>©<?php $this->options->title(); ?> | <span id="site_runtime"></span></p>

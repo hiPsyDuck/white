@@ -14,12 +14,17 @@ function themeConfig($form) {
     $form->addInput($favicon);
     $beian = new Typecho_Widget_Helper_Form_Element_Text('beian', NULL, NULL, _t('备案号') , _t(''));
     $form->addInput($beian);
-    $builtTime = new Typecho_Widget_Helper_Form_Element_Text('builtTime', NULL, NULL, _t('运行时间') , _t('格式YYYY-MM-DD'));
+    $builtTime = new Typecho_Widget_Helper_Form_Element_Text('builtTime', NULL, NULL, _t('博客建立时间') , _t('格式YYYY-MM-DD'));
     $form->addInput($builtTime);
     $animateTime = new Typecho_Widget_Helper_Form_Element_Text('animateTime', NULL, NULL, _t('动画过渡时间') , _t('格式 1s'));
     $form->addInput($animateTime);
-    $feedIMG = new Typecho_Widget_Helper_Form_Element_Text('feedIMG', NULL, NULL, _t('打赏二维码图片') , _t('http://...'));
+    $feedIMG = new Typecho_Widget_Helper_Form_Element_Text('feedIMG', NULL, NULL, _t('打赏二维码图片') , _t('如果没有就算啦，反正不会有人赞赏的'));
     $form->addInput($feedIMG);
+    $navPosition = new Typecho_Widget_Helper_Form_Element_Radio('navPosition', array(
+        '0' => _t('置底'),
+        '1' => _t('置顶')
+    ) , '0', _t('导航栏位置') , _t('默认置底'));
+    $form->addInput($navPosition);
 
 }
 

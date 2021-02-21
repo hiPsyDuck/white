@@ -262,6 +262,7 @@ div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code-tool
 	float: left;
 	font-weight: bold;
 	color: #333;
+	width: 80%;
 }
 
 #header-text a{
@@ -1490,6 +1491,26 @@ white-space: nowrap;
 	color: #333333;
 }
 
+#nav-top{
+	line-height: 0.7;
+	position: relative;
+	display: inline-block;
+	padding-top: 20px;
+	width: 100%;
+}
+#nav-top a{
+	display: inline-block;
+	color:#686868;
+	padding-right: 20px;
+	font-size: 13px;
+	transition: all 0.2s;
+	cursor: pointer;
+	/* text-decoration: underline; */
+}
+#nav-top a:hover{
+	color: #333333;
+}
+
 /**
  * 1024px
  */
@@ -1503,7 +1524,7 @@ white-space: nowrap;
 	margin: 0 auto;
 }
 #header-container {
-	margin: 25px 40px;
+	margin: 25px 25px;
 }
 #header-container h2 {
 	font-size: 2rem;
@@ -1585,6 +1606,10 @@ white-space: nowrap;
 }
 #post-content-title {
 	font-size: 16px;
+	margin-left: 25px;
+}
+#post-content-meta{
+	margin-left: 25px;
 }
 }
 

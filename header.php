@@ -61,7 +61,7 @@
 
 			.article-item {
 
-		    padding: 25px 40px;
+		    padding: 25px 25px;
 
 			}
 
@@ -218,7 +218,7 @@
     <a id="top" style="position: absolute;top: 0"></a>
 	<div id="pjax-container">
 
-		<div id="header">
+		<div id="header" <?php if ($this->options->navPosition): ?> style="padding-bottom: 10px" <?php endif; ?>>
 
 			<div id="header-container">
 
@@ -232,7 +232,21 @@
 
                 <a id="header-imgUrl" href="<?php Helper::options()->siteUrl()?>"><img id="header-avatar" src="<?php $this->options->favicon(); ?>"></a>
 
+				<?php if ($this->options->navPosition): ?>
+					<nav id="nav-top">
 
+						<a href="<?php Helper::options()->siteUrl()?>">首页</a>
+						
+						<a href="<?php Helper::options()->siteUrl()?>bb.html">留言</a>
+
+						<a href="<?php Helper::options()->siteUrl()?>archive.html">归档</a>
+
+						<a href="<?php Helper::options()->siteUrl()?>links.html">邻居</a>
+
+						<a href="<?php Helper::options()->siteUrl()?>about.html">关于</a>
+
+					</nav>
+				<?php endif; ?>
 
 
 
