@@ -41,6 +41,8 @@
 	<script src="https://blog.loli.top/usr/themes/po/JS/jquery.pjax.min.js"></script>
 
  	<script src="<?php $this->options->themeUrl('JS/X.js'); ?>"></script>
+	
+	<script src="<?php $this->options->themeUrl('JS/prism.js'); ?>"></script>
 
 	<script src="<?php $this->options->themeUrl('JS/clipboard.min.js'); ?>"></script>
 

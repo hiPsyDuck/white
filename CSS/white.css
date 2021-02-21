@@ -381,7 +381,7 @@ div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code-tool
 }
 .article-item h2 span {
 	color: #444;
-	font-size: 15.5px;
+	font-size: 18px;
 	position:relative;
 	transition: .3s ease all;
 }
@@ -390,6 +390,7 @@ div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code-tool
 	font-style: normal;
 	/*font-weight: 200;*/
 	line-height: 35px;
+	font-size: 16px;
 }
 .article-item p {
 	color: #ddd;
@@ -641,7 +642,7 @@ div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code-tool
 	height: 5rem;
 }
 #post-content-title {
-	font-size: 16px;
+	font-size: 18px;
 	margin-left: 50px;
 	margin-bottom: 10px;
 	color: #444;
@@ -716,7 +717,7 @@ div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code-tool
 	font-size: 15.5px;
 }
 #post-content-article p:not(.aplayer-lrc-contents p), #post-content-article li {
-	font-size: 17px;
+	font-size: 16px;
 	letter-spacing: .6px;
 }
 #post-content-article li {
@@ -966,9 +967,9 @@ ruby>rt {
  #comments .comment-author .avatar {
      float: left;
      margin: 1px 10px 0 0;
-     border-radius: 50px;
-     width: 50px;
-     height: 50px;
+     border-radius: 20%;
+     width: 40px;
+     height: 40px;
  }
 
  #comments .comment-author cite {
@@ -1138,7 +1139,8 @@ ruby>rt {
  #comments .comment-list,.comment-list ol {
      margin: 0;
      padding: 0;
-     list-style: none
+	 list-style: none;
+	 font-size: 15px;
  }
 
  #comments .comment-list li.comment-body {
@@ -1158,7 +1160,7 @@ ruby>rt {
  #comments .comment-list li .comment-reply {
      float: right;
      margin-top: -47px;
-     font-size: 15.5px
+     font-size: 15px
  }
 
  #comments .comment-content {
@@ -1512,7 +1514,7 @@ white-space: nowrap;
 }
 
 #header-avatar {
-	width: 50px;
+	width: 55px;
 }
 
 #header-container div span {
