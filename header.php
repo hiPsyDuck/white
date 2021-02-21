@@ -6,13 +6,6 @@
 
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
-	<!-- DNS预解析 -->
-
-
-	<link rel="dns-prefetch" href="https://cdn.s.loli.top">
-	<link rel="dns-prefetch" href="https://p.pstatp.com">
-	<link rel="dns-prefetch" href="https://dingyue.ws.126.net">
-
 
 	<title><?php $this->archiveTitle(' &raquo; ', '', ' | '); ?><?php $this->options->title(); ?></title>
 
