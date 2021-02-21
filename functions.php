@@ -25,6 +25,11 @@ function themeConfig($form) {
         '1' => _t('置顶')
     ) , '0', _t('导航栏位置') , _t('默认置底'));
     $form->addInput($navPosition);
+    $pageShadow = new Typecho_Widget_Helper_Form_Element_Radio('pageShadow', array(
+        '0' => _t('关闭'),
+        '1' => _t('开启')
+    ) , '0', _t('页角阴影') , _t('默认关闭'));
+    $form->addInput($pageShadow);
 
 }
 

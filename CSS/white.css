@@ -19,7 +19,7 @@ html {
 	overflow-y: auto;
 }
 body {
-	background-color: #eee;
+	background-color: #f4f4f4;
 	padding: 0px;
 	margin: 0;
 	overflow: hidden;
@@ -94,6 +94,8 @@ html::-webkit-scrollbar-thumb,html *::-webkit-scrollbar-thumb {
 }
 #pjax-container{
 	opacity: 1;
+	width: 1000px;
+    margin: 50px auto 0 auto;
 	-webkit-transition: .6s ease all;
 	-moz-transition: .6s ease all;
 	-ms-transition: .6s ease all;
@@ -243,7 +245,7 @@ div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code-tool
 #header {
 	background: #ffffff;
 	padding-bottom: 5%;
-	width: 900px;
+	width: 1000px;
 	margin: 50px auto 0 auto;
 	overflow: hidden;
 	position: relative;
@@ -332,7 +334,7 @@ div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code-tool
 
 	#zp {
 	margin: 50px auto;
-	width: 900px;
+	width: 1000px;
 	background: white;
 	border-radius: 30px;
 	box-shadow: 0px 0px 70px 6px rgba(0,0,0,0.12);
@@ -367,7 +369,7 @@ div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code-tool
 
 #article {
 	margin: 0 auto 50px auto;
-	width: 900px;
+	width: 1000px;
 	/*box-shadow: 0 10px 20px 0 rgba(236,236,236,.86);*/
 }
 .article-item h2 {
@@ -519,7 +521,7 @@ div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code-tool
 
 #page {
 	margin: 0 auto;
-	width: 900px;
+	width: 1000px;
 	background: white;
 	padding: 1px;
 }
@@ -613,7 +615,7 @@ div.code-toolbar > .toolbar a, div.code-toolbar > .toolbar button, div.code-tool
 
 #post {
 	margin: 0 auto;
-	width: 900px;
+	width: 1000px;
 	position: relative;
 	background: #fff;
 }
@@ -851,7 +853,7 @@ ruby>rt {
 	background: rgba(153,153,153,0.1);
 }
 #post-related-posts{
-	width:900px;
+	width:1000px;
 	margin: 0 auto;
 	white-space: nowrap;
 
@@ -910,7 +912,7 @@ ruby>rt {
   */
 
  #comments {
- 	width: 900px;
+ 	width: 1000px;
  	margin: 0 auto;
  }
  .page-navigator {
@@ -1188,7 +1190,7 @@ ruby>rt {
  */
 
 #links {
-	width: 900px;
+	width: 1000px;
 	margin: 0 auto 20px auto;
 	background: RGB(255,255,255);
 	padding: 1px;
@@ -1355,7 +1357,7 @@ white-space: nowrap;
  */
 
 #archives {
-	width: 900px;
+	width: 1000px;
 	margin: 0 auto 20px auto;
 	background: RGB(255,255,255);
 	padding: 1px;
@@ -1424,7 +1426,7 @@ white-space: nowrap;
  */
 
 #Search {
-	width: 900px;
+	width: 1000px;
 	margin: 20px auto;
 	background: RGB(255,255,255);
 	box-shadow: 0px 0px 70px 6px rgba(0,0,0,0.12);
@@ -1441,7 +1443,7 @@ white-space: nowrap;
  */
 
 #footer {
-	width: 900px;
+	width: 1000px;
 	margin: 50px auto;
 	padding: 1px;
 }

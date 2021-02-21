@@ -72,7 +72,14 @@
 
 		}
 
-
+	
+		<?php if ($this->options->pageShadow): ?>
+			
+			.pjax-container-shadow {
+				box-shadow: 0 10px 20px 0 hsl(0deg 0% 70% / 86%);
+			}
+		
+		<?php endif; ?>
 
 
 		<?php if ($this->options->animateTime): ?>
@@ -209,7 +216,7 @@
 
 	<!-- 头部/pjax -->
     <a id="top" style="position: absolute;top: 0"></a>
-	<div id="pjax-container">
+	<div id="pjax-container" class="pjax-container-shadow">
 
 		<div id="header" <?php if ($this->options->navPosition): ?> style="padding-bottom: 10px" <?php endif; ?>>
 
