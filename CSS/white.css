@@ -1520,6 +1520,7 @@ white-space: nowrap;
 @media screen and (max-width: 1024px) {
 #pjax-container {
 	width: 100%;
+	margin: 0 auto;
 }
 #header {
 	width: 100%;
@@ -1621,6 +1622,7 @@ white-space: nowrap;
 @media screen and (max-width: 768px) {
 	#pjax-container {
 	width: 100%;
+	margin: 0 auto;
 }
 #header {
 	width: 100%;
