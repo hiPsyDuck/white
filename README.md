@@ -6,6 +6,10 @@ typecho 主题 白
 
 添加独立页面`bb.html` `archive.html` `links.html` `about.html` 分别对应底部导航栏的 `留言` `归档` `邻居` `关于`
 
+
+推荐安装插件： Links | CommentToMail
+
+
 ## 更新记录   
 
 |  日期   | 更新内容  |
