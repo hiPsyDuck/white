@@ -35,9 +35,9 @@
 
  	<script src="<?php $this->options->themeUrl('JS/X.js'); ?>"></script>
 	
-	<script src="<?php $this->options->themeUrl('JS/prism.js'); ?>"></script>
-
 	<script src="<?php $this->options->themeUrl('JS/clipboard.min.js'); ?>"></script>
+
+	<script src="<?php $this->options->themeUrl('JS/prism.js'); ?>"></script>
 
 	<script src="<?php $this->options->themeUrl('JS/toastr.min.js'); ?>"></script>
 

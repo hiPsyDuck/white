@@ -65,7 +65,7 @@
     top: 0.2rem;
     left: -0.4rem;
     background-size: contain;
-    background-image: url(https://i.loli.net/2020/12/26/LcASwXYP6tuiHU2.png);
+    background-image: url(../IMG/down.png);
     -webkit-transition: .3s ease all;
     -moz-transition: .3s ease all;
     -ms-transition: .3s ease all;
@@ -83,7 +83,7 @@
     top: 0.2rem;
     left: -0.4rem;
     background-size: contain;
-    background-image: url(https://i.loli.net/2020/12/26/BbECH2sj4x69kDS.png);
+    background-image: url(../IMG/down-hover.png);
 }
 
 .post-download a::after {
