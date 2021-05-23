@@ -30,6 +30,11 @@ function themeConfig($form) {
         '1' => _t('开启')
     ) , '0', _t('页角阴影') , _t('默认关闭'));
     $form->addInput($pageShadow);
+    $upyun = new Typecho_Widget_Helper_Form_Element_Radio('upyun', array(
+        '0' => _t('否'),
+        '1' => _t('是')
+    ) , '0', _t('又拍云联盟') , _t('默认否'));
+    $form->addInput($upyun);
 
 }
 

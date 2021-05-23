@@ -20,6 +20,18 @@
 
             <p>©<?php $this->options->title(); ?> | <span id="site_runtime"></span></p>
 
+			<?php if ($this->options->upyun): ?>
+
+			<p>
+				<a id="youpaiyun" target="_blank" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral">
+				本网站由
+				<img src="<?php $this->options->themeUrl('IMG/'); ?>upyun.png" alt="又拍云">
+				提供CDN加速/云存储服务
+				</a>
+			</p>
+
+			<?php endif; ?>
+
 		</div>
 
 
