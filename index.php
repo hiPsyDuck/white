@@ -5,7 +5,7 @@
  *
  * @package 白
  * @author psyduck
- * @version 1.3
+ * @version 1.4
  * @link https://psyduck.liujiayang.cn/
  */
 
